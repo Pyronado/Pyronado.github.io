@@ -1,6 +1,3 @@
-@media only screen and (max-width 600px;){
-#bio{font-size:50%}
-}
 
 html{background-image:url('asfalt-light.png');
     overflow-x:auto;
@@ -94,3 +91,28 @@ text-decoration: none;
 }
 .links:hover{font-size:110%;
 color:blue;}
+@media only screen and (max-width:600px){
+    html{overflow:auto;}
+    body{}
+    #right{}
+    #bio{font-size:.7em;
+    width:80%;
+bottom:-5%;}
+    #left{bottom:-15%;
+    font-size:1em;
+width:10em;
+left:0em;
+bottom:2em;}
+    #right{bottom:15%;
+    font-size:1em;
+}
+    article{}
+    footer{bottom:0;}
+    #jon{top:0em;
+    left:5em;}
+    .links{}
+    footer{width:94%;
+    border-radius:17px;
+bottom:-2.5em;
+}
+    }
