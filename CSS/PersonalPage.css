@@ -1,3 +1,7 @@
+@media only screen and (max-width 600px;){
+#bio{font-size:50%}
+}
+
 html{background-image:url('asfalt-light.png');
     overflow-x:auto;
 
@@ -60,6 +64,7 @@ footer{position: absolute;
 }
 
 #bio{font-size:1em;
+    
 text-align:right;
 width:80%;
 left:15%;
