@@ -13,7 +13,7 @@ box-sizing: border-box;
     margin:auto auto auto 0px;
     width:50%;
    padding:auto;
-    font-size:100%;
+    font-size:120%;
 background-color:rgba(169,169,169,0.7);
 border-radius:50px;
 bottom:10%;
@@ -27,7 +27,7 @@ position: relative;
      height:100%;
     width:50%;
     margin:auto 0px auto auto;
-    font-size:100%;
+    font-size:120%;
     bottom:3.3em;
     clear: both;
     padding:auto;
@@ -82,21 +82,17 @@ font-size:130%;}
 :-webkit-scrollbar {
     display: none;
   }
-  #jon{width: 13%;
+  #jon{width: 6em;
 height:10%;
-border-radius:75px;
-border: 1px solid rgba(169,169,169,0.7);
-left:0px;
+border-radius:250px;
+border: 0.1em solid rgba(169,169,169,0.7);
+left:4em;
 top:4em;
 position: relative;}
-
-   .container-foreground{max-width:960px;
-    margin:auto;
-}
+  
 
 .links{color:white;
 text-decoration: none;
-
 
 
 }
@@ -113,14 +109,12 @@ bottom:-5%;}
     margin:auto;
 width:40%;
 left:-100px;
-font-size:.8em;
 }
     #right{width:40%;
         margin:auto;
         left:108px;
         padding:10px 10px 10px 10px;
     bottom:150px;
-    font-size:.8em;
 }
     article{}
     footer{bottom:0;}
