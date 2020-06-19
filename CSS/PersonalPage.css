@@ -7,30 +7,29 @@ body{ font-family: 'Raleway', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
 box-sizing: border-box;
 }
+
+.container-left-right{height:50px;
+display:flex;}
+
+#left{
     
-#left{left:0px;
-    height:100%;
-    margin:auto auto auto 0px;
+    
+  
     width:50%;
-   padding:auto;
+ 
     font-size:120%;
 background-color:rgba(169,169,169,0.7);
 border-radius:50px;
-bottom:10%;
+
 border: 1px solid black;
 position: relative;
 -moz-box-shadow:    inset 0 0 3px #000000;
    -webkit-box-shadow: inset 0 0 3px #000000;
    box-shadow:         inset 0 0 3px #000000;}
 
-#right{ right:0px;
-     height:100%;
+#right{ 
     width:50%;
-    margin:auto 0px auto auto;
     font-size:120%;
-    bottom:3.3em;
-    clear: both;
-    padding:auto;
 background-color:rgba(169,169,169,0.7);
 border-radius:50px;
 position: relative;
@@ -39,7 +38,8 @@ position: relative;
    box-shadow:         inset 0 0 3px #000000;
 border:1px solid black;}
 
-.text{text-align:center;}
+.text{font-size: 1vw;
+text-align:center;}
  
 nav{height:25%;
 width: 100%;
@@ -96,8 +96,8 @@ text-decoration: none;
 
 
 }
-.links:hover{font-size:120%;
-color:blue;
+.links:hover{
+color:rgb(62, 8, 255);
 font-style: oblique;}
 @media only screen and (max-width:600px){
     html{overflow:auto;}
