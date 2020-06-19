@@ -38,7 +38,7 @@ position: relative;
    box-shadow:         inset 0 0 3px #000000;
 border:1px solid black;}
 
-.text{font-size: 1vw;
+.text{font-size: .9em;
 text-align:center;}
  
 nav{height:25%;
